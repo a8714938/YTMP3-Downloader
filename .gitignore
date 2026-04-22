@@ -1,0 +1,12 @@
+# 忽略打包產生的資料夾與執行檔
+dist/
+build/
+*.spec
+*.exe
+
+# 忽略下載的暫存檔與設定檔
+ffmpeg_temp.zip
+config.json
+
+# 忽略 Python 產生的快取
+__pycache__/
