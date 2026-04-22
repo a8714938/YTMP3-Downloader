@@ -1,4 +1,3 @@
-[ytmp3_gui.md](https://github.com/user-attachments/files/26973792/ytmp3_gui.md)
 # 🎵 YouTube 轉 MP3 隨身版 (YouTube to MP3 Portable Downloader)
 
 這是一個基於 Python 與 Tkinter 開發的輕量級、免安裝的 YouTube 轉 MP3 工具。具備圖形化介面（GUI），並採用**「雙引擎獨立外掛」**架構，完美解決了傳統打包軟體容易因為 YouTube 演算法更新而永久失效的痛點。
@@ -27,11 +26,9 @@
 此專案主要使用 Python 內建標準庫，介面使用 `tkinter`。唯一需要安裝的第三方打包套件為 `pyinstaller`。
 ```bash
 pip install pyinstaller
-
+```bash
 **2. 打包為單一 EXE 檔：**
-
-Bash
-
+```bash
 pyinstaller --noconsole --onefile ytmp3_gui.py
-
+```bash
 (打包後的檔案將生成於 dist 資料夾中)
