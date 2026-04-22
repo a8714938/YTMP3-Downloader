@@ -26,9 +26,9 @@
 此專案主要使用 Python 內建標準庫，介面使用 `tkinter`。唯一需要安裝的第三方打包套件為 `pyinstaller`。
 
 pip install pyinstaller
-```bash
+
 **2. 打包為單一 EXE 檔：**
 ```bash
 pyinstaller --noconsole --onefile ytmp3_gui.py
-```bash
+
 (打包後的檔案將生成於 dist 資料夾中)
