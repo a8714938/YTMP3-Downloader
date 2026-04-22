@@ -27,3 +27,13 @@
 
 ```bash
 pip install pyinstaller
+```
+2. 執行程式：
+```bash
+python ytmp3_gui.py
+```
+3. 打包為單一 EXE 檔：
+```bash
+pyinstaller --noconsole --onefile ytmp3_gui.py
+```
+(打包後的檔案將生成於 dist 資料夾中)
